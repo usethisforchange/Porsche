@@ -13,7 +13,7 @@ const images = [
   {src: "image/Porche  (11).jpg", title: "Aerodynamic Design", desc: "Aerodynamic excellence in every curve for ultimate performance"}
 ];
 
-const beatTimings = [0, 5, 10, 15, 20, 25, 30, 35, 40, 45];
+const beatTimings = [0, 5, 10, 15, 20, 25, 31, 37, 42, 47];
 
 const features = [
   {icon: "mdi-speedometer", title: "Performance", desc: "Unmatched speed and handling precision"},
@@ -57,7 +57,7 @@ function App() {
       preloaderAudioRef.current.volume = 0;
       preloaderAudioRef.current.preload = 'auto';
       
-      mainAudioRef.current = new Audio('sound/niko1.mp3');
+      mainAudioRef.current = new Audio('sound/niko.mp3');
       mainAudioRef.current.loop = false;
       mainAudioRef.current.volume = 0;
       mainAudioRef.current.preload = 'auto';
@@ -554,3 +554,4 @@ function App() {
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+
