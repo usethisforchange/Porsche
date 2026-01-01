@@ -585,6 +585,7 @@ footer {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
+}
 @media (max-width:768px) {
   body {
     width: 1200px;
@@ -594,5 +595,4 @@ footer {
   html, body {
     overflow-x: hidden;
   }
-}
 }
