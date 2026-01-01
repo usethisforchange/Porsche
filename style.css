@@ -586,13 +586,4 @@ footer {
     gap: 1.5rem;
   }
 }
-@media (max-width:768px) {
-  body {
-    width: 1200px;
-    transform: scale(0.33);
-    transform-origin: top left;
-  }
-  html, body {
-    overflow-x: hidden;
-  }
-}
+
